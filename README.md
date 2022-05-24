@@ -1,5 +1,6 @@
 # Install dependencies
 brew cask install basictex
+
 brew cask install tex-live-utility
 
 Open TeX Live Utility and install pdfcrop
