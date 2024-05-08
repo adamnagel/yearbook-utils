@@ -1,5 +1,8 @@
-SOURCEDIR=pdf-crop/tests
+SOURCEDIR=./PDFs
 OUTDIR=../output
+
+# Create the output directory if it does not exist
+mkdir -p "$OUTDIR"
 
 pushd $SOURCEDIR
 
